@@ -1,0 +1,25 @@
+{
+  "name": "com-stionic-plugin",
+  "version": "1.0.2",
+  "description": "Stionic plugin for Cordova Ionic",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stionic/com-stionic-plugin.git"
+  },
+  "keywords": [
+    "stionic",
+    "mobile",
+    "app",
+    "cordova",
+    "ionic"
+  ],
+  "author": "stionic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stionic/com-stionic-plugin/issues"
+  },
+  "homepage": "https://github.com/stionic/com-stionic-plugin#readme"
+}
