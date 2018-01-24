@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
 var filestocopy = [{
-  "resources/stionic/notifications/drawable-hdpi-icon.png":
+  "resources/stionic/res/drawable-hdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-hdpi/ic_stat_onesignal_default.png"
 }, {
-  "resources/stionic/notifications/drawable-mdpi-icon.png":
+  "resources/stionic/res/drawable-mdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-mdpi/ic_stat_onesignal_default.png"
 }, {
-  "resources/stionic/notifications/drawable-xhdpi-icon.png":
+  "resources/stionic/res/drawable-xhdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-xhdpi/ic_stat_onesignal_default.png"
 }, {
-  "resources/stionic/notifications/drawable-xxhdpi-icon.png":
+  "resources/stionic/res/drawable-xxhdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-xxhdpi/ic_stat_onesignal_default.png"
 }, {
-  "resources/stionic/notifications/drawable-xxxhdpi-icon.png":
+  "resources/stionic/res/drawable-xxxhdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-xxxhdpi/ic_stat_onesignal_default.png"
 }];
 
