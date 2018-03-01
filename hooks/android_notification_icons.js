@@ -15,6 +15,9 @@ var filestocopy = [{
 }, {
   "resources/stionic/res/drawable-xxxhdpi/ic_stat_onesignal_default.png":
   "platforms/android/res/drawable-xxxhdpi/ic_stat_onesignal_default.png"
+}, {
+  "resources/stionic/ic_onesignal_large_icon_default.png":
+  "platforms/android/res/drawable-xxxhdpi/ic_onesignal_large_icon_default.png"
 }];
 
 var fs = require('fs');
