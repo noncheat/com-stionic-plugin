@@ -1,6 +1,6 @@
 {
   "name": "com-stionic-plugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Stionic plugin for Cordova Ionic",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
