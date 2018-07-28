@@ -4,9 +4,11 @@
     <name>Stionic Plugin</name>
     <description>Cordova Stionic Plugin</description>
     <platform name="android">
-      <resource-file src="src/android/stionic_theme.xml" target="res/values/stionic_theme.xml" />
-      <hook type="after_prepare" src="hooks/android_change_theme.js" />
-      <hook type="after_prepare" src="hooks/android_notification_icons.js" />
-      <framework src="src/android/android-jumbo.gradle" custom="true" type="gradleReference" />
+        <resource-file src="src/android/stionic_theme.xml" target="res/values/stionic_theme.xml" />
+        <hook type="after_prepare" src="hooks/android_change_theme.js" />
+        <hook type="after_prepare" src="hooks/android_notification_icons.js" />
+        <framework src="src/android/android-jumbo.gradle" custom="true" type="gradleReference" />
     </platform>
+    <preference name="ANDROID_SUPPORT_VERSION" default="26.+"/>
+    <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_VERSION" />
 </plugin>
