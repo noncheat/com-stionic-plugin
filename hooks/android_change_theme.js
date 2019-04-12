@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
 var fs = require("fs");
-var path = require('path');
-var et = require('cordova-android/node_modules/elementtree');
 var manifest = 'platforms/android/app/src/main/AndroidManifest.xml';
 
 if (!fs.existsSync(manifest)) {
