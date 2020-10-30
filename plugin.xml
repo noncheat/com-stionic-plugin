@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com-stionic-plugin" version="1.0.11">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com-stionic-plugin" version="1.0.12">
     <name>Stionic Plugin</name>
     <description>Cordova Stionic Plugin</description>
     <platform name="android">
@@ -9,6 +9,4 @@
         <hook type="after_prepare" src="hooks/android_notification_icons.js" />
         <framework src="src/android/android-jumbo.gradle" custom="true" type="gradleReference" />
     </platform>
-    <preference name="ANDROID_SUPPORT_VERSION" default="28.+"/>
-    <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_VERSION" />
 </plugin>
