@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com-stionic-plugin" version="1.0.12">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com-stionic-plugin" version="1.0.13">
     <name>Stionic Plugin</name>
     <description>Cordova Stionic Plugin</description>
     <platform name="android">

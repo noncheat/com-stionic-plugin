@@ -1,16 +1,17 @@
 {
   "name": "com-stionic-plugin",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Stionic plugin for Cordova Ionic",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stionic/com-stionic-plugin.git"
+    "url": "git+https://github.com/noncheat/com-stionic-plugin.git"
   },
   "keywords": [
     "stionic",
+    "noncheat",
     "mobile",
     "app",
     "cordova",
@@ -19,7 +20,7 @@
   "author": "stionic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stionic/com-stionic-plugin/issues"
+    "url": "https://github.com/noncheat/com-stionic-plugin/issues"
   },
-  "homepage": "https://github.com/stionic/com-stionic-plugin#readme"
+  "homepage": "https://github.com/noncheat/com-stionic-plugin#readme"
 }
