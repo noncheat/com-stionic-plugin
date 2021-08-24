@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorWhite">#fff</color>
-    <style name="Stionic" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+    <style name="Stionic" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/colorWhite</item>
         <item name="android:windowActionBar">false</item>
     </style>
