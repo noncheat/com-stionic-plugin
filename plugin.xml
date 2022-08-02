@@ -4,6 +4,7 @@
     <name>Stionic Plugin</name>
     <description>Cordova Stionic Plugin</description>
     <platform name="android">
+        <framework src="androidx.work:work-runtime:2.7.0-alpha05" />
         <resource-file src="src/android/stionic_theme.xml" target="res/values/stionic_theme.xml" />
         <hook type="after_prepare" src="hooks/android_change_theme.js" />
         <hook type="after_prepare" src="hooks/android_notification_icons.js" />
